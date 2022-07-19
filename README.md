@@ -6,3 +6,10 @@ Vytvořte skript `hello_world.py`, který po spuštění vypíše `Hello world!`
 > python3 hello_world.py
 Hello world!
 ```
+
+## Lokální testování
+Funkčnost řešení ověříte následujícím příkazem:
+
+```bash
+pytest tests.py
+```
