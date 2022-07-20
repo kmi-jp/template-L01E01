@@ -2,8 +2,8 @@
     "tests": [
       {
         "name": "Tests",
-        "setup": "sudo -H pip3 install pytest pytest-console-scripts",
-        "run": "pytest tests.py",
+        "setup": "python3.10 -m pip install pytest pytest-console-scripts",
+        "run": "python3.10 -m pytest tests.py",
         "input": "",
         "output": "",
         "comparison": "included",
